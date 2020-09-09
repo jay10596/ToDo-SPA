@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
+import Todos from "./components/Todos/Todos";
+import Meme from "./components/Meme/Meme";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return(
+        <div className="App">
+            <header>To-Do & Meme App</header>
+
+            <div className="split-screen">
+                <Todos />
+                <Meme />
+            </div>
+
+            <footer><p className="footer-border">by Jay Modi</p></footer>
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -1,38 +1,34 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.split-screen {
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+    padding: 5%;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background: linear-gradient(to right, deeppink, yellow, dodgerblue, hotpink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer {
+    padding: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-border {
+    margin-left: 40%; /* Doing it this way because we are not using div or p tag inside the footer */
+    margin-right: 40%;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid red;
+    border-image: linear-gradient(to right, gray 0%, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%, teal 100%) 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

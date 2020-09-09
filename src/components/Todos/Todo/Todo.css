@@ -1,0 +1,64 @@
+.todo-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 25px 0px;
+}
+
+input {
+
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    margin: 0px 5px;
+}
+
+.delete-button {
+    color: #CE3717;
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding: 6px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 2px lightslategray;
+}
+
+.delete-button:focus {
+    outline: none;
+}
+
+.delete-button:hover {
+    color: antiquewhite;
+    background-color: #CE3717;
+}
+
+.edit-button {
+    color: #119C28;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    padding: 6px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 2px lightslategray;
+}
+
+.edit-button:focus {
+    outline: none;
+}
+
+
+.edit-button:hover {
+    color: antiquewhite;
+    background-color: #119C28;
+}

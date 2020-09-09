@@ -1,0 +1,58 @@
+.right-section {
+    flex: 1;
+    position: relative;
+}
+
+img {
+    margin: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+.top-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    top: 0;
+    margin-top: 12%;
+
+    font-family: ".SF NS Mono";
+    font-size: xx-large;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.bottom-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    bottom: 0;
+    margin-bottom: 10%;
+
+    font-family: ".SF NS Mono";
+    font-size: xx-large;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    margin: 20px 0px;
+
+    border: 4px solid lightgray; /* Light grey */
+    border-top: 4px solid dodgerblue; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
